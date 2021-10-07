@@ -32,7 +32,7 @@ describe("1. Variables and Numbers", () => {
   describe("04-age-me-by-a-year", () => {
     it('should use the increment operator to increment the variable "age" by 1', () => {
       expect(ageMeByAYear.toString().includes("++")).equal(true);
-      expect(ageMeByAYear(2019)).equal(2020);
+      expect(ageMeByAYear(19)).equal(20);
     });
   });
 
