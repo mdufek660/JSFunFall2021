@@ -11,3 +11,8 @@ let fullName = "John smith"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let tempArray = fullName.split(" ");
+let lastName=tempArray[tempArray.length-1];
+let lastNameCapitalized=lastName[0].toUpperCase()+lastName.substring(1);
+tempArray[tempArray.length-1]=lastNameCapitalized;
+fullName=tempArray.join(" ");

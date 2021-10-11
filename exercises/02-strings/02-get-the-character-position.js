@@ -1,5 +1,5 @@
 let firstName = "Bill"; // e.g.
-let letter = "i"; // e.g.
+let letter = "e"; // e.g.
 
 /**
  * Create a variable or constant called "characterPosition".
@@ -19,3 +19,4 @@ let letter = "i"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let characterPosition=firstName.indexOf(letter);

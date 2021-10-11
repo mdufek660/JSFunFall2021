@@ -16,3 +16,8 @@ const place = "New Jersey"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+
+//assuming that it is always the last word, and not all but the first (ie "I Am Here" should return "Here" and not "Am Here")
+let tempArray = place.split(" ");
+let newPlace=tempArray.at(-1);

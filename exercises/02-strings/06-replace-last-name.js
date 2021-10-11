@@ -16,3 +16,7 @@ let newLastName = "Washington"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let tempArray = fullName.split(" ");
+tempArray[tempArray.length-1]=newLastName;
+fullName=tempArray.join(" ");
