@@ -10,3 +10,14 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let lowerCaseString = (input) => {
+    let output;
+    if(typeof input != "string" || input==null){
+        return output;
+    }
+    else
+    {
+        output=input.toLowerCase()
+        return output;
+    }
+}

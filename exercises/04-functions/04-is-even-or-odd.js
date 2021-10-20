@@ -8,3 +8,7 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let isEvenOrOdd = (input) =>{
+    if(input%2==0){return "even";}
+    else{return "odd";}
+}

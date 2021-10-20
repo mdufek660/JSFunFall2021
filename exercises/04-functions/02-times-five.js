@@ -7,3 +7,4 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let timesFive = (input)=>{return input*5;};

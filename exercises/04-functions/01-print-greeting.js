@@ -6,3 +6,4 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let printGreeting = (input) => {return ("Hello "+input+"!");};
