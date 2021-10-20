@@ -89,13 +89,13 @@ describe("3. Conditionals", () => {
       const isLargerNumberStr = isLargerNumber.toString();
       expect(isLargerNumberStr).to.match(/let isLargerNumber/);
     });
-    it('"isLargerNumber" should be true when "b" is greater than "a"', () => {
+    it('"isLargerNumber" should be true when "num2" is greater than "num1"', () => {
       expect(isLargerNumber(1, 999999)).to.be.true;
     });
-    it('"isLargerNumber" should be false when "a" is greater than "b"', () => {
+    it('"isLargerNumber" should be false when "num1" is greater than "num2"', () => {
       expect(isLargerNumber(1.1, -555)).to.be.false;
     });
-    it('"isLargerNumber" should be false when "a" is equal to "b"', () => {
+    it('"isLargerNumber" should be false when "num1" is equal to "num2"', () => {
       expect(isLargerNumber(3, 3)).to.be.false;
     });
   });
