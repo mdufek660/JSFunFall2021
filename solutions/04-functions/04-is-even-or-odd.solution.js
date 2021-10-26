@@ -1,0 +1,22 @@
+/**
+ * Create a function called "isEvenOrOdd".
+ * If given an even number, it should return "even".
+ * If given an odd number, it should return "odd".
+ * @example isEvenOrOdd(10); // even
+ * @example isEvenOrOdd(3); // odd
+ * You should use arrow syntax.
+ */
+
+// WRITE YOUR ANSWER BELOW THIS LINE
+
+// Solution 1
+const isEvenOrOdd = (num) => {
+  if (num % 2 === 0) {
+    return "even";
+  } else {
+    return "odd";
+  }
+};
+
+// Solution 2
+const isEvenOrOdd = (num) => (num % 2 === 0 ? "even" : "odd");
