@@ -10,8 +10,16 @@
 
 const isPalindrome = (string) => {
   // WRITE YOUR ANSWER HERE
+  let output=true;
+  string=string.toLowerCase()
+  for(let i=0; i<string.length; i++){
+    if(string[0+i]!=[string[string.length-1-i]]){
+      output=false;
+      break;
+    }
+  }
+  return output;
 };
-
 // IGNORE THIS BELOW. It is for the tests.
 
 export default isPalindrome;

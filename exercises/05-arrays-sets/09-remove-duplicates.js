@@ -8,9 +8,12 @@
  */
 
 const removeDuplicates = (numbers) => {
-  // WRITE YOUR ANSWER HERE
+  let output=new Set()
+  for(let i=0; i<numbers.length; i++){
+    output.add(numbers[i]);
+  }
+  return (Array.from(output))
 };
-
 // IGNORE THIS BELOW. It is for the tests.
 
 export default removeDuplicates;

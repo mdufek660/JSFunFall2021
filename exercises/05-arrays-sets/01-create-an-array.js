@@ -4,3 +4,5 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let restaurants = ["McDonalds", "Ripe Tomato", "Texas de Brazil"];

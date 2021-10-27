@@ -11,3 +11,15 @@
 const timesFive = (number) => {
   return number * 5;
 };
+
+const convertTemperature = (faren) =>
+{
+  return ((faren-32)*5/9)
+}
+
+
+let array = [];
+for(let i=0; i<1000; i++){
+  array.push(Math.floor(Math.random()*20)+1)
+}
+console.log(array);
