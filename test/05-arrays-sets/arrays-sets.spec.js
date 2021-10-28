@@ -12,7 +12,7 @@ import {
   removeDuplicates,
 } from "./arrays-sets-test-helper.js";
 
-describe("4. Arrays & Sets", () => {
+describe("5. Arrays & Sets", () => {
   describe("00-solving-problems", () => {
     it("should pass the test", () => {
       expect(solvingProblems("test")).to.equal("test");
@@ -21,13 +21,11 @@ describe("4. Arrays & Sets", () => {
 
   describe("01-create-an-array", () => {
     it('should contain an array called "restaurants"', () => {
-      const createAnArrayStr = createAnArray.toString();
-      expect(createAnArrayStr).to.match(/(let|const) restaurants/);
-      expect(createAnArrayStr).to.match(/\[/);
-      expect(createAnArrayStr).to.match(/\]/);
+      const restaurants = createAnArray();
+      expect(restaurants).to.be.an("array");
     });
     it('"restaurants" should have at least 3 items', () => {
-      let restaurants = createAnArray();
+      const restaurants = createAnArray();
       expect(restaurants).to.have.lengthOf(3);
     });
   });
@@ -53,9 +51,9 @@ describe("4. Arrays & Sets", () => {
   });
 
   describe("04-combine-arrays-.js", () => {
-    it('should contain a constant called "newArray"', () => {
-      const combineArraysStr = combineArrays.toString();
-      expect(combineArraysStr).to.match(/const/);
+    it('should contain a new array called "newArray"', () => {
+      const newArray = combineArrays(["HTML"], ["CSS"]);
+      expect(newArray).to.be.an("array");
     });
     it('"newArray" should merge two arrays into one', () => {
       const newArray = combineArrays(["HTML"], ["CSS"]);
