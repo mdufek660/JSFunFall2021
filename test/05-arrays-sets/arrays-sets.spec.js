@@ -87,12 +87,12 @@ describe("5. Arrays & Sets", () => {
 
   describe("08-is-palidrome", () => {
     it("should return true if a word is a palindrome", () => {
-      const result = isPalindrome("eye");
-      expect(result).to.be.equal(true);
+      expect(isPalindrome("rotator")).to.be.equal(true);
+      expect(isPalindrome("noon")).to.be.equal(true);
     });
     it("should return false if a word is not a palindrome", () => {
-      const result = isPalindrome("not a palindrome");
-      expect(result).to.be.equal(false);
+      expect(isPalindrome("difference")).to.be.equal(false);
+      expect(isPalindrome("wedding")).to.be.equal(false);
     });
     it("should use split", () => {
       expect(isPalindrome.toString().includes("split")).to.equal(true);

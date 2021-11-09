@@ -72,6 +72,7 @@ describe("6. Objects", () => {
         name: "Cary Grant",
         skills: [],
       });
+      expect(student.name).to.not.equal("Cary Grant");
       expect(student.name).to.be.a("string").to.be.ok;
     });
     it('should add a new skill to the "skills" array inside of the "student" object', () => {
