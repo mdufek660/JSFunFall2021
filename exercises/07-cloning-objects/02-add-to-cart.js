@@ -20,6 +20,9 @@
  */
 const addToCart = (shoppingCart, newItem) => {
   // WRITE YOUR ANSWER HERE
+  let newShoppingCart=JSON.parse(JSON.stringify(shoppingCart))
+  newShoppingCart.push(JSON.parse(JSON.stringify(newItem)))
+  return newShoppingCart
 };
 
 // IGNORE THIS BELOW. It is for the tests.

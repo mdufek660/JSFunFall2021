@@ -19,8 +19,9 @@
  */
 const changeEmail = (user, newEmail) => {
   // WRITE YOUR ANSWER HERE
+  let newUser={...user, email:newEmail}
+  return newUser
 };
 
 // IGNORE THIS BELOW. It is for the tests.
-
 export { changeEmail };

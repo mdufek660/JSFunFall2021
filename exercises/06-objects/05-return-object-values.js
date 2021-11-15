@@ -19,6 +19,11 @@
 
 const returnObjectValues = (blogPost) => {
   // WRITE YOUR ANSWER HERE
+  let returnArray = [];
+  for(let property in blogPost){
+    returnArray.push(blogPost[property].toString())
+  }
+  return returnArray;
 };
 
 // IGNORE THIS BELOW. It is for the tests.

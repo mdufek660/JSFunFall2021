@@ -10,16 +10,21 @@
 
 const isPalindrome = (string) => {
   // WRITE YOUR ANSWER HERE
-  let output=true;
   string=string.toLowerCase()
-  for(let i=0; i<string.length; i++){
-    if(string[0+i]!=[string[string.length-1-i]]){
-      output=false;
-      break;
-    }
+  let stringArray=string.split("")
+  let end = Math.ceil(stringArray.length/2)
+  let firstHalf = stringArray.slice(0, end).join("");
+  let lastHalf= stringArray.slice(end).reverse().join("");
+
+  if(firstHalf.length==lastHalf.length+1){
+    firstHalf = firstHalf.slice(0,-1)
   }
-  return output;
+  if(firstHalf==lastHalf){
+    return true;
+  }
+  else{
+    return false;
+  }
 };
 // IGNORE THIS BELOW. It is for the tests.
-
 export default isPalindrome;

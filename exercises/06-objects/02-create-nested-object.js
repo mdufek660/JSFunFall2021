@@ -32,6 +32,14 @@ const createGraduateObject = (
   githubLink,
   linkedInLink
 ) => {
+  return({
+  name: name,
+  graduationYear: graduationYear,
+  skills: skills,
+  links:{
+    github: githubLink,
+    linkedIn: linkedInLink
+  }})
   // WRITE YOUR ANSWER HERE
 };
 

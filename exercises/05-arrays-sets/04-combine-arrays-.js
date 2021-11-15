@@ -8,4 +8,4 @@ let array2 = ["lion", "leopard", "saber tooth tiger"];
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-let newArray [...array1, ...array2]
+let newArray = [...array1, ...array2];
