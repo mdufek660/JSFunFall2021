@@ -21,11 +21,25 @@
  * console.log( findFirst([1, 3, 7, 8, 20], isNumberEven) ) // 8
  * console.log( findFirst([4, 500, 30, 2], isNumberTwoDigits) ) // 30
  */
+const isNumberEven=(num)=>{
+  if(num%2===0) {return true}
+  else {return false}
+}
+
+const isNumberTwoDigits=(num)=>{
+  if((num+"").length===2){return true}
+  else{return false}
+}
 
 const findFirst = (arrayOfNum, callback) => {
   // WRITE YOUR ANSWER HERE
+  let returnNumber=false;
+  for(let entry of arrayOfNum){
+    returnNumber=callback(entry)
+    if(returnNumber){return entry}
+  }
+  return null;
 };
 
 // IGNORE THIS BELOW. It is for the tests.
-
 export { findFirst };

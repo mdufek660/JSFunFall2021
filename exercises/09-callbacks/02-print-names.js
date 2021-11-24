@@ -13,7 +13,9 @@
  */
 
 // WRITE PART 1 OF YOUR ANSWER HERE
-
+const printer =(name)=>{
+  console.log("---"+name+"---")
+}
 /**
  * PART 2
  * NOTE that the test will use the "printer" function that you completed in the problem above.
@@ -29,6 +31,9 @@
  */
 const printNames = (array, callback) => {
   // WRITE PART 2 OF YOUR ANSWER HERE
+  for(let name in array){
+    callback(name);
+  }
 };
 
 // IGNORE THIS BELOW. It is for the tests.

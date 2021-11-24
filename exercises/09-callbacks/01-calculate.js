@@ -21,8 +21,18 @@
  * console.log( calculate(7, 3, subtract) ); // 4
  */
 
+  const add = (num1,num2) =>{
+    return num1+num2;
+  }
+
+  const subtract = (num1,num2) =>{
+    return num1-num2;
+  }
+
 const calculate = (num1, num2, callback) => {
   // WRITE YOUR ANSWER HERE
+  
+  return callback(num1,num2);
 };
 
 // IGNORE THIS BELOW. It is for the tests.

@@ -18,6 +18,8 @@
  * shoppingCart[0].price = 9000000; // This should not change newShoppingCart
  * newItem.price = 10; // This should not change newItem
  */
+
+
 const addToCart = (shoppingCart, newItem) => {
   // WRITE YOUR ANSWER HERE
   let newShoppingCart=JSON.parse(JSON.stringify(shoppingCart))
