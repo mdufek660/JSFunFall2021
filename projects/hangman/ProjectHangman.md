@@ -8,7 +8,7 @@ If you are not familiar with the game, you can [watch this video](https://www.yo
 
 ![Hangman example gameplay](hangman.gif)
 
-For your game, you will have multiple _rounds_. Each round will begin with the computer picking a word at random. The player will then make a series of guesses. The round will end when the player either guesses the entire word or he guesses more than six letters. The computer will keep track of the number rounds the player has won and the total number of rounds played. It will display the results after each round ends.
+For your game, you will have multiple _rounds_. Each round will begin with the computer picking a word at random. The player will then make a series of guesses. The round will end when the player either guesses the entire word or he guesses more than six incorrect letters. The computer will keep track of the number rounds the player has won and the total number of rounds played. It will display the results after each round ends.
 
 ## Project Goals
 
