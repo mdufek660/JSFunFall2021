@@ -165,6 +165,14 @@ if (/[a-zA-Z]/.test(userInput)) {
 }
 ```
 
+## Project Help
+
+If you need help, please schedule a 1-on-1 with your instructors or any of the CanCode Communities staff who is available to help.
+
+## Project Submission
+
+Please send a link to your Github repository to Matina and Jamal as a direct message over Slack. If you have not completed your project, please turn in what you have.
+
 ## Project Resubmission
 
 You may resubmit this project again for a better grade. In order to resubmit, you must have made a valid attempt. (That is, and you must have followed all the steps in the _Getting Started_ documentation, your app must run, and you have started to meet some of the requirements). You have until the last day of class to resubmit your project.
