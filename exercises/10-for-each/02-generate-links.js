@@ -24,3 +24,7 @@ const links = [
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let counter =1;
+links.forEach(link =>{ htmlStr+="<a href=\""+link+"\"> "+counter+". "+link+"</a>"; counter++;})
+
+console.log(htmlStr);

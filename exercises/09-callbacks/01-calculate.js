@@ -38,3 +38,25 @@ const calculate = (num1, num2, callback) => {
 // IGNORE THIS BELOW. It is for the tests.
 
 export { calculate };
+
+let kirbyLeft="<('o'<)"
+let kirbyMidd="<('o')>"
+let kirbyRigh="(>'o')>"
+
+let z=0;
+let outString="";
+console.log("Lets begin")
+while(z<10000){
+  if(z%3==1){
+    outString=(kirbyLeft+kirbyMidd+kirbyRigh)
+  }
+  if(z%3==2){
+    outString=(kirbyMidd+kirbyRigh+kirbyLeft)    
+  }
+  if(z%3==0){
+    outString=(kirbyRigh+kirbyLeft+kirbyMidd)    
+  }
+  setTimeout(()=> {console.log(outString);}, 100)
+  z++
+  console.clear()
+}

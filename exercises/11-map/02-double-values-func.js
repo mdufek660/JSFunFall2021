@@ -12,6 +12,8 @@
 
 const doubleValuesFunc = (numbers) => {
   // WRITE YOUR ANSWER HERE
+  let returnArray = numbers.map(n=>{return n*2})
+  return returnArray
 };
 
 // IGNORE THIS BELOW. It is for the tests.

@@ -43,3 +43,9 @@ const findFirst = (arrayOfNum, callback) => {
 
 // IGNORE THIS BELOW. It is for the tests.
 export { findFirst };
+
+let foodsInHouse=["Pineapple", "Bacon", "Pickles", "Onions", "Cheese", "Sausage", "Apples", "Milk", "Vanilla Ice Cream"]
+let validPizzaToppings = ["Bacon", "Pepperoni", "Buffalo Sauce", "Onions", "Cheese", "Sausage", "Peppers", "Chicken"]
+
+const availableToppings = foodsInHouse.filter((food)=>{if(validPizzaToppings.includes(food)){return food}})
+console.log("Pizzas can be made with: "+availableToppings ) 

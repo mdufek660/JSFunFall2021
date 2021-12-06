@@ -18,6 +18,8 @@
 
 const createBlogList = (blogTitles) => {
   // WRITE YOUR ANSWER HERE
+  let returnArray = blogTitles.map(entry => {return ("<li>"+entry+"</li>")})
+  return returnArray
 };
 
 // IGNORE THIS BELOW. It is for the tests.
