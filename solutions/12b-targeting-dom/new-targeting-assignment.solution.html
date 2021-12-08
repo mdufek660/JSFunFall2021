@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+  </head>
+  <body>
+    <!-- Target single button -->
+    <button>My Button</button>
+
+    <!-- Part 1: Target all of the links below -->
+    <!-- Part 2: Use forEach and console.log each element -->
+    <ul>
+      <li><a href="https://www.google.com">Google</a></li>
+      <li><a href="https://www.facebook.com">Facebook</a></li>
+      <li><a href="https://www.instagram.com">Instagram</a></li>
+    </ul>
+
+    <!-- Target the li items that say "Target me". You can modify the HTML-->
+    <ul>
+      <li class="target-me">Ignore me</li>
+      <li>Target me</li>
+      <li class="target-me">Ignore me</li>
+      <li class="target-me">Ignore me</li>
+      <li>Target me</li>
+    </ul>
+  </body>
+
+  <script>
+    (function () {})();
+    // Write your code here
+
+    // Button
+    const button = document.querySelector("button");
+    console.log(button);
+
+    // Links
+    const links = document.querySelectorAll("a");
+    // ForEach style 1
+    const link = (link) => console.log(link);
+    links.forEach(link);
+    // ForEach style 2
+    links.forEach((link) => {
+      console.log(link);
+    });
+
+    // Targeted li items
+    // I've added the class "target-me" to the HTML
+    const lis = document.querySelectorAll(".target-me");
+    console.log(lis);
+    12;
+  </script>
+</html>
