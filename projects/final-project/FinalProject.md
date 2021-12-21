@@ -223,7 +223,7 @@ Your project does not have to be 100% complete, but it does have to be presentab
 
 ## Graduation and Project Showcase
 
-There will be a virtual graduation and networking ceremony on February 15th. You will receive an email from AlbanyCanCode with more information about this as we get closer to the date. You will be ask present your project, so it should be ready to share by the project due date.
+There will be a virtual graduation and networking ceremony on February 17th. You will receive an email from AlbanyCanCode with more information about this as we get closer to the date. You will be ask present your project, so it should be ready to share by the project due date.
 
 ## Project Help
 
