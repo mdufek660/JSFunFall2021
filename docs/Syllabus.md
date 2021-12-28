@@ -1,6 +1,6 @@
 # JavaScript Fundamentals
 
-**[AlbanyCanCode Course](https://albanycancode.org/)**
+**[CanCode Communities Class](https://cancode.org/)**
 
 **Fall 2021**
 
@@ -22,7 +22,7 @@ This course will also introduce you to the tools and practice of the trade. This
 ### Class
 
 Online Class - Microsoft Teams \
-AlbanyCanCode Administration should provide you access to our class's team before class begins
+CanCode Communities' administration should provide you access to our class's team before class begins
 
 Mondays and Wednesdays \
 5:45pm - 8:45pm \
@@ -55,7 +55,7 @@ Graduation date: TBA
 
 ### Class Format & Communications
 
-The class will be taught over Microsoft Team's video conferencing. AlbanyCanCode adminstration will give you access and provide training over Microsoft Teams. Please contact either John Sturman or another member of the administrative team for technical support.
+The class will be taught over Microsoft Team's video conferencing. CanCode Communities' adminstration will give you access and provide training over Microsoft Teams. Please contact either John Sturman or another member of the administrative team for technical support.
 
 Most of the communication outside of class will take place on Slack. Please check it regularly. The class’s public channel is _#jsfun-fall-2021_.
 
@@ -88,7 +88,7 @@ You can find a list of assignments inside of Teams.
 
 ### Getting Help
 
-If you find that you have any trouble keeping up with assignments, technology or other aspects of the course, make sure you let AlbanyCanCode know as early as possible. As you will find, building rapport and effective relationships are key to becoming an effective professional.
+If you find that you have any trouble keeping up with assignments, technology or other aspects of the course, make sure you let CanCode Communities know as early as possible. As you will find, building rapport and effective relationships are key to becoming an effective professional.
 
 While Jamal and Matina would like to help you any way we can, your instructors do have full-time jobs outside of this class and are not always available. We encourage you to message the class channel or ask other students for help. Our staff are also available for 1-on-1 help sessions.
 
