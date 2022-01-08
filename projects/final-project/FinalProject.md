@@ -219,12 +219,12 @@ You will submit to following to both of you instructors over Slack by the projec
 1. The link to your Github repository.
 2. The link to you where your project is published. You can publish your project with Github Pages or you can a different hosting service.
 
-Your project does not have to be 100% complete, but it does have to be presentable to employers. AlbanyCanCode will host your project in a public space and they will be sharing your work with employers.
+Your project does not have to be 100% complete, but it does have to be presentable to employers. CanCode Communities will host your project in a public space and they will be sharing your work with employers.
 
 ## Graduation and Project Showcase
 
-There will be a virtual graduation and networking ceremony on February 17th. You will receive an email from AlbanyCanCode with more information about this as we get closer to the date. You will be ask present your project, so it should be ready to share by the project due date.
+There will be a virtual graduation and networking ceremony on February 17th. You will receive an email from CanCode Communities with more information about this as we get closer to the date. You will be ask present your project, so it should be ready to share by the project due date.
 
 ## Project Help
 
-If you need help, please schedule a 1-on-1 with your instructors or any of the AlbanyCanCode staff who is available to help.
+If you need help, please schedule a 1-on-1 with your instructors or any of the CanCode Communities staff who is available to help.

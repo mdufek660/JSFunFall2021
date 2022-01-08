@@ -1,6 +1,6 @@
 # JavaScript Fundamentals
 
-**[AlbanyCanCode Course](https://albanycancode.org/)**
+**[CanCode Communities Class](https://cancode.org/)**
 
 **Fall 2021**
 

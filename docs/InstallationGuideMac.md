@@ -15,13 +15,13 @@ We are going to install software over the command line, so before starting, open
 
 ## Microsoft Teams
 
-Before class began, you should have received emails and training from AlbanyCanCode about on how to install, setup, and use Microsoft Teams.
+Before class began, you should have received emails and training from CanCode Communities about on how to install, setup, and use Microsoft Teams.
 
 You will need to give Teams permissions for _Screen Recording_, because we ask students to share their screens during class. [Here is how you can enable this on Big Sur and Catalina.](https://www.marquette.edu/microsoft-teams/teams-macos-access.php)
 
 ## Slack
 
-Before installing Slack, please accept the invite to AlbanyCanCode's channel (_albanycancode_). You should have received an email before class.
+Before installing Slack, please accept the invite to CanCode Communities' channel (_albanycancode_). You should have received an email before class.
 
 Use can use the [web](https://albanycancode.slack.com/) or desktop version. The desktop version can be found in the App Store.
 

@@ -11,11 +11,11 @@
 
 ## Microsoft Teams
 
-Before class began, you should have received emails and training from AlbanyCanCode about on how to install, setup, and use Microsoft Teams.
+Before class began, you should have received emails and training from CanCode Communities about on how to install, setup, and use Microsoft Teams.
 
 ## Slack
 
-Before installing Slack, please accept the invite to AlbanyCanCode's channel (_albanycancode_). You should have received an email before class.
+Before installing Slack, please accept the invite to CanCode Communities' channel (_albanycancode_). You should have received an email before class.
 
 Use can use the [web](https://albanycancode.slack.com/) or desktop version. If you would like to use the desktop version, go to https://slack.com/downloads/windows and click on a download option.
 

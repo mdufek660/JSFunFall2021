@@ -1,7 +1,7 @@
 {
   "name": "JSFunFall2021",
   "version": "1.0.0",
-  "description": "AlbanyCanCode's JavaScript Fundamentals Class Fall 2021",
+  "description": "CanCode Communities' JavaScript Fundamentals Class Fall 2021",
   "directories": {
     "doc": "docs"
   },
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/AlbanyCanCodeCourses/JSFunFall2021.git"
   },
-  "author": "AlbanyCanCode",
+  "author": "CanCode Communities",
   "bugs": {
     "url": "https://github.com/AlbanyCanCodeCourses/JSFunFall2021/issues"
   },
