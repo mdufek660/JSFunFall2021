@@ -206,3 +206,10 @@
     else showTermsError();
   });
 })();
+
+let futureTime=new Date.now()+1000;
+
+while(date.now()<futureTime)
+{}
+
+console.log(data);

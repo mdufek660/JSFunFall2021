@@ -8,11 +8,11 @@
   </head>
   <body>
     <!-- Target single button -->
-    <button>My Button</button>
+    <button id="myButton">My Button</button>
 
     <!-- Part 1: Target all of the links below -->
     <!-- Part 2: Use forEach and console.log each element -->
-    <ul>
+    <ul id="links">
       <li><a href="https://www.google.com">Google</a></li>
       <li><a href="https://www.facebook.com">Facebook</a></li>
       <li><a href="https://www.instagram.com">Instagram</a></li>
@@ -20,16 +20,23 @@
 
     <!-- Target the li items that say "Target me". You can modify the HTML-->
     <ul>
-      <li>Ignore me</li>
-      <li>Target me</li>
-      <li>Ignore me</li>
-      <li>Ignore me</li>
-      <li>Target me</li>
+      <li class="ignoreMePlease">Ignore me</li>
+      <li class="pickMePlease">Target me</li>
+      <li class="ignoreMePlease">Ignore me</li>
+      <li class="ignoreMePlease">Ignore me</li>
+      <li class="pickMePlease">Target me</li>
     </ul>
   </body>
 
   <script>
     (function () {})();
     // Write your code here
+    console.log(document.querySelector("#myButton"))
+    
+    const targetLinks=document.querySelectorAll("#links")
+    targetLinks.forEach((link)=>console.log(link))
+    
+    const targetedBullets = document.querySelectorAll(".pickMePlease")
+    targetedBullets.forEach((item)=>console.log(item))
   </script>
 </html>

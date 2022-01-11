@@ -9,6 +9,8 @@
    * @see https://developer.mozilla.org/en-US/docs/Web/API/Window/alert
    */
   // Write your answer here
+  const alertButton = document.querySelector("#alertMeButton");
+  alertButton.addEventListener("click", () => {alert("Alerted!")});
   /**
    * Challenge 2: Disable a button that will charge a credit card.
    *
@@ -17,6 +19,11 @@
    * 2. Change the text to say e.g. "Loading ..." once it is clicked.
    */
   // Write your answer here
+  const creditCardChargeButton = document.querySelector("#creditCardChargeButton");
+  creditCardChargeButton.addEventListener("click", () =>{
+    creditCardChargeButton.disabled = true;
+    creditCardChargeButton.textContent="Loading..."
+  });
   /**
    * Challenge 3: Show comments for the news story.
    *
@@ -28,6 +35,19 @@
    * If the comments are open, change the button text from "View Comments" to "Hide Comments".
    */
   // Write your answer here
+  const viewCommentButton = document.querySelector("#viewCommentButton");
+  const commentSectionToToggle=document.querySelector("#commentSectionToToggle");
+
+  viewCommentButton.addEventListener("click", () => {
+    if(viewCommentButton.textContent=="View Comments"){
+        viewCommentButton.textContent="Hide Comments";
+        commentSectionToToggle.classList.remove("hidden")
+    }
+    else{
+        viewCommentButton.textContent=="View Comments";
+        commentSectionToToggle.classList.add("hidden");
+    }
+  })
   /**
    * Challenge 4: Rendering what a user is typing on the page.
    *
@@ -35,6 +55,12 @@
    * it should display what the user is typing in the <div></div> tags below.
    */
   // Write your answer here
+
+      const captureMeInput = document.querySelector("#captureMeInput");
+      const captureMeOutput= document.querySelector("#captureMeOutput");
+      
+      captureMeInput.addEventListener("input", () =>
+      captureMeOutput.innerHTML=captureMeInput.value)
   /**
    * Challenge 5: Display the results of the world's most pointless search engine.
    *
@@ -48,6 +74,15 @@
    * and you must prevent the page from refreshing when the form is submitted.
    */
   // Write your answer here
+          const wseInput = document.querySelector("#worstSearchEngineInput");
+        const wseOutput= document.querySelector("#worstSearchEngineOutput");
+          const wseButton = document.querySelector("#wseButton");
+          
+          worstSearchEngineInput.addEventListener("keypress", (key) =>{
+            if(key==="Enter"){wseOutput.innerHTML = "No results for " + wseInput.value + " found";}})          }
+          
+          wseButton.addEventListener("click", () =>{
+          wseOutput.innerHTML = "No results for " + wseInput.value + " found";})
   /**
    * Challenge 6: Add pagination to the student table.
    *

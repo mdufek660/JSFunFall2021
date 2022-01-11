@@ -43,10 +43,10 @@
   <body>
     <section class="bg-dark pt-4 pb-4 text-center">
       <!-- This button should alert the user when clicked on -->
-      <button class="btn btn-success btn-lg">Alert Me!</button>
+      <button class="btn btn-success btn-lg" id="alertMeButton">Alert Me!</button>
 
       <!-- This button should become disabled and display "Loading ..." when clicked on -->
-      <button class="btn btn-warning btn-lg">Charge My Credit Card</button>
+      <button class="btn btn-warning btn-lg" id="creditCardChargeButton" >Charge My Credit Card</button>
     </section>
 
     <section class="container pt-4 pb-4">
@@ -76,10 +76,10 @@
         <p>Highway I-87 is now closed.</p>
 
         <!-- This is the button that will toggle the comments -->
-        <p><button class="btn btn-primary">View Comments</button></p>
+        <p><button class="btn btn-primary" id="viewCommentButton">View Comments</button></p>
 
         <!-- This is the comment section you need to toggle -->
-        <div class="card card-body hidden">
+        <div class="card card-body hidden" id="commentSectionToToggle">
           <div class="media">
             <img
               src="https://i.pravatar.cc/150?img=8"
@@ -118,19 +118,20 @@
         <form class="form-group">
           <div class="input-group">
             <input
+              id="worstSearchEngineInput"
               type="search"
               placeholder="Search for oceans near Albany, NY"
               aria-label="Search for oceans near Albany, NY"
               class="form-control"
             />
             <div class="input-group-append">
-              <button class="btn btn-success" type="submit">Search</button>
+              <button class="btn btn-success" id="wseButton" type="submit">Search</button>
             </div>
           </div>
         </form>
 
         <!-- Display "No results for ___ found" inside of this <p></p> -->
-        <p class="text-white"></p>
+        <p class="text-white" id="worstSearchEngineOutput"></p>
       </div>
     </section>
 
